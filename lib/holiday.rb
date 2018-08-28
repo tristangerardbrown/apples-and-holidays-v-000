@@ -18,13 +18,10 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
-  holiday_supplies.each do |season, holiday|
-    holiday.each do |festival, supplies|
-      puts "#{festival}: #{supplies}"
-      pry
+  def second_supply_for_fourth_of_july(holiday_supplies)
+  holiday_supplies[:summer][:fourth_of_july][1]
 end
-end
-end
+
 
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
