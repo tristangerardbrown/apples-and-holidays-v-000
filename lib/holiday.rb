@@ -53,7 +53,9 @@ def all_winter_holiday_supplies(holiday_hash)
     holiday.each do |supplies|
     if holiday == :winter
       puts "#{supplies}"
-    end end end end 
+    end
+  end
+ end 
 
 
 end
