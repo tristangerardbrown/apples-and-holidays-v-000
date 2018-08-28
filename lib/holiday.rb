@@ -18,6 +18,10 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
+  holiday_hash.each do |season, holiday|
+    if holiday == :fourth_of_july
+      holiday.each do |supplies|
+        puts "#{supplies[1]}"
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
@@ -61,10 +65,3 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 end
-
-
-
-
-
-
-
