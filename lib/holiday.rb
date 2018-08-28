@@ -21,11 +21,11 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |season, holiday|
     if holiday == :fourth_of_july
       holiday.each do |supplies|
-        puts "#{supplies[1]}"
+        puts "#{supplies}"
 end
 end
 end
-end 
+end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash is identical to the one above
