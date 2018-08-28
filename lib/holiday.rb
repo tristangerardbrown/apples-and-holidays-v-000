@@ -24,6 +24,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
         puts "#{supplies[1]}"
 end
 end
+end
 end 
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
